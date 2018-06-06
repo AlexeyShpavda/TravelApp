@@ -4,7 +4,7 @@ class CreateDestinations < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :image
       t.string :description
-      
+
       t.references :tag
       t.timestamps
     end
